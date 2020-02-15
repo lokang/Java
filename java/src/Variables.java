@@ -2,7 +2,7 @@ public class Variables {
     public static void main(String[] args){
         /**
          * Variables are declared
-         * @ variable_type and variable_name
+         * @ data_type and variable_name
          */
         String name;
         int age;
@@ -26,6 +26,15 @@ public class Variables {
          * in java, + is used for variables concatenation.
          */
 
-        System.out.println(name+" "+age);
+        System.out.println(name + age);
+
+        /**
+         * + is also used for adding numbers or variables
+         * you can declare multiple variables separated by comma if
+         * they are of same type.
+         */
+        int a = 5, b = 7;
+        int sum = a+b;
+        System.out.println(sum);
     }
 }
